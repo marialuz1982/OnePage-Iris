@@ -2,10 +2,10 @@ var check = document.querySelector(".check")
 check.addEventListener('click',idioma)
 
 function idioma (){
-   let id=check.ariaChecked
+   let id=check.checked
    if(id==true){
-    location.href="../html/index_esp.html"
+    location.href="/port/index.html"
    }else{
-    location.href="../html/index_port.html"
+    location.href="/index.html"
    }
 }
